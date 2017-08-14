@@ -1,7 +1,6 @@
 const config = require('./config');
 const mongoose = require('mongoose');
-const log = require('./log');
-require('./models/setup');
+const log = require('./logger');
 
 mongoose.Promise = global.Promise;
 const uri = `mongodb://${config.db.host}:${config.db.port}/${config.db.dbname}`;

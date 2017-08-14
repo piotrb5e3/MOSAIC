@@ -7,4 +7,8 @@ module.exports = {
         user: 'mosaic-dev',
         password: 'mosaic-dev',
     },
+    mq: {
+        host: '127.0.0.1',
+        port: 16379,
+    },
 };
